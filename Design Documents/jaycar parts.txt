@@ -1,0 +1,9 @@
+MC145436
+pin headers
+single node breadboard
+8-ohm speaker (CAT. NO. AS3180)
+22 uF
+3.58Mhz Crystal
+1M ohm resistor
+10K potentiometer 
+mono jack socket
