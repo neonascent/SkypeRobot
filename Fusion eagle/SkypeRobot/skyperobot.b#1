@@ -661,7 +661,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="SparkFun" package="TRIM_POT_10MM" value="10K" x="27.686" y="39.116" rot="R270"/>
-<element name="LED1" library="SparkFun" package="LED3MM" value="yellow" x="40.386" y="30.988" rot="R90"/>
+<element name="LED1" library="SparkFun" package="LED3MM" value="" x="40.386" y="30.988" rot="R90"/>
 <element name="MC145436AP" library="ic-package" package="DIL14" value="" x="15.24" y="36.83" rot="R270"/>
 <element name="C1" library="SparkFun" package="CAP-PTH-SMALL" value="22uF" x="34.544" y="29.718" rot="R90"/>
 <element name="R1" library="SparkFun" package="AXIAL-0.3" value="145" x="28.194" y="45.466" rot="R180"/>
@@ -1059,6 +1059,44 @@ design rules under a new name.</description>
 <via x="57.15" y="55.88" extent="1-16" drill="0.3048"/>
 </signal>
 </signals>
+<errors>
+<approved hash="18,29,5b14e1a528e8f349"/>
+<approved hash="18,29,4322f7d6770e3864"/>
+<approved hash="18,29,4d3ed1005f5836ec"/>
+<approved hash="18,29,4a7ce2ad6be531b2"/>
+<approved hash="18,29,5e3cce1f50b725ae"/>
+<approved hash="18,29,5dc690140ebc39a4"/>
+<approved hash="18,29,4d3493011d5936f2"/>
+<approved hash="18,29,3bf4fb73039b4056"/>
+<approved hash="18,29,026613f6ceaa943f"/>
+<approved hash="18,29,be220bbbfa97b490"/>
+<approved hash="18,29,b1ba2de1d345ba94"/>
+<approved hash="18,29,c7c006128f36cdae"/>
+<approved hash="18,29,b1bc6fe49148ba8e"/>
+<approved hash="18,29,a2c8328edcdaa9a6"/>
+<approved hash="18,29,b6ec1e40e7ecbdc6"/>
+<approved hash="18,29,bec26c859d21b5ac"/>
+<approved hash="18,29,35862bcea2e46152"/>
+<approved hash="18,29,b81fab2fa2a56f74"/>
+<approved hash="18,29,1e1912c97f07ad36"/>
+<approved hash="18,29,931293b47fd4a28c"/>
+<approved hash="18,29,3dc1307b305533eb"/>
+<approved hash="18,29,3343304930633d6d"/>
+<approved hash="18,29,8fd9ad2ade5e78a0"/>
+<approved hash="18,29,80980d40b8e69516"/>
+<approved hash="18,29,6ca43e78406bb87e"/>
+<approved hash="18,29,a6fb8cc6c3f82d0d"/>
+<approved hash="18,29,8bca0e7fb1a3822a"/>
+<approved hash="18,29,5ce7eef5d1f00a38"/>
+<approved hash="18,29,7ce92d6d111ebf51"/>
+<approved hash="18,30,3e3a0ee700f20fd7"/>
+<approved hash="18,30,3e56db5b8f63bb63"/>
+<approved hash="18,30,eced26eda58d8e98"/>
+<approved hash="18,30,aa5f7fba7ef6b3cb"/>
+<approved hash="18,30,ae5176b07274b415"/>
+<approved hash="18,30,a90b730e75bab8d7"/>
+<approved hash="18,30,8dd10cce4ea98c4c"/>
+</errors>
 </board>
 </drawing>
 </eagle>

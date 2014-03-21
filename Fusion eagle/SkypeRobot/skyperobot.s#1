@@ -4823,7 +4823,7 @@ Source: 008-0260-0_E.pdf</description>
 </classes>
 <parts>
 <part name="U$1" library="SparkFun" deviceset="POT" device="TRIM" value="10K"/>
-<part name="LED1" library="SparkFun" deviceset="LED" device="3MM" value="yellow"/>
+<part name="LED1" library="SparkFun" deviceset="LED" device="3MM"/>
 <part name="MC145436AP" library="ic-package" deviceset="DIL14" device=""/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="PTH" value="22uF"/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="AXIAL-0.3" value="145"/>
@@ -5264,6 +5264,7 @@ Source: 008-0260-0_E.pdf</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="115,1,59.69,136.838,LED1,,,,,"/>
 <approved hash="115,1,78.7045,138.502,MC145436AP,,,,,"/>
 <approved hash="115,1,-65.4473,150.055,JP3,,,,,"/>
 <approved hash="115,1,26.0773,152.595,JP4,,,,,"/>

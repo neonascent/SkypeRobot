@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -172,7 +172,7 @@
 <text x="33.1788" y="67.945" size="1.27" layer="21" font="vector" ratio="15">+JCK</text>
 <text x="38.5128" y="26.797" size="1.27" layer="21" font="vector" ratio="15">TONE</text>
 <text x="21.2408" y="26.797" size="1.27" layer="21" font="vector" ratio="15">T_VOL</text>
-<text x="48.9268" y="27.813" size="1.27" layer="21" font="vector" ratio="15" rot="R90">POWR+</text>
+<text x="45.3708" y="27.813" size="1.27" layer="21" font="vector" ratio="15" rot="R90">POWR+</text>
 <text x="39.0208" y="73.533" size="1.6764" layer="21" font="vector" ratio="15">SkypeRobot</text>
 <text x="39.0208" y="72.009" size="1.016" layer="21" font="vector" ratio="15">TacticalSpace.org</text>
 <text x="49.4348" y="72.771" size="1.6764" layer="22" font="vector" ratio="15" rot="MR0">55416</text>
@@ -481,7 +481,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <clearance class="1" value="0.508"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -687,7 +687,7 @@ design rules under a new name.</description>
 </element>
 <element name="JACK" library="SparkFun" package="1X02_LOCK_LONGPADS" value="jack" x="34.29" y="72.39"/>
 <element name="U2" library="SparkFun" package="DUEMILANOVE_SHIELD_LONGPADS_NOHOLES" value="ARDUINO_SHIELDLONGPADS" x="4.318" y="16.51"/>
-<element name="BATTERY" library="SparkFun" package="MOLEX-1X2" value="9v" x="53.086" y="31.75" rot="R270"/>
+<element name="BATTERY" library="SparkFun" package="MOLEX-1X2" value="9v" x="46.99" y="31.75" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$4" class="1">
@@ -1034,12 +1034,11 @@ design rules under a new name.</description>
 <wire x1="29.21" y1="35.56" x2="27.94" y2="36.83" width="1.524" layer="16"/>
 <wire x1="41.91" y1="35.56" x2="29.21" y2="35.56" width="1.524" layer="16"/>
 <wire x1="45.72" y1="31.75" x2="41.91" y2="35.56" width="1.524" layer="16"/>
-<wire x1="53.086" y1="31.75" x2="45.72" y2="31.75" width="1.524" layer="16"/>
+<wire x1="46.99" y1="31.75" x2="45.72" y2="31.75" width="1.524" layer="16"/>
 <wire x1="57.15" y1="53.34" x2="55.118" y2="53.34" width="1.524" layer="16"/>
 <wire x1="58.42" y1="52.07" x2="57.15" y2="53.34" width="1.524" layer="16"/>
 <wire x1="58.42" y1="31.75" x2="58.42" y2="52.07" width="1.524" layer="16"/>
-<wire x1="53.34" y1="31.75" x2="58.42" y2="31.75" width="1.524" layer="16"/>
-<wire x1="53.34" y1="31.75" x2="53.086" y2="31.75" width="1.524" layer="16"/>
+<wire x1="46.99" y1="31.75" x2="58.42" y2="31.75" width="1.524" layer="16"/>
 <via x="27.94" y="36.83" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$12" class="1">
@@ -1048,15 +1047,15 @@ design rules under a new name.</description>
 <contactref element="JP7" pad="3"/>
 <contactref element="U2" pad="GND@1"/>
 <wire x1="31.75" y1="53.34" x2="26.67" y2="53.34" width="1.524" layer="1"/>
-<wire x1="58.42" y1="29.21" x2="53.086" y2="29.21" width="1.524" layer="1"/>
+<wire x1="58.42" y1="29.21" x2="46.99" y2="29.21" width="1.524" layer="1"/>
 <wire x1="58.42" y1="49.53" x2="58.42" y2="29.21" width="1.524" layer="1"/>
 <wire x1="57.15" y1="50.8" x2="58.42" y2="49.53" width="1.524" layer="1"/>
 <wire x1="55.118" y1="50.8" x2="57.15" y2="50.8" width="1.524" layer="1"/>
 <wire x1="34.29" y1="55.88" x2="31.75" y2="53.34" width="1.524" layer="16"/>
-<wire x1="57.15" y1="55.88" x2="34.29" y2="55.88" width="1.524" layer="16"/>
 <wire x1="58.42" y1="54.61" x2="57.15" y2="55.88" width="1.524" layer="1"/>
 <wire x1="58.42" y1="49.53" x2="58.42" y2="54.61" width="1.524" layer="1"/>
 <via x="57.15" y="55.88" extent="1-16" drill="0.3048"/>
+<wire x1="57.15" y1="55.88" x2="34.29" y2="55.88" width="1.524" layer="16"/>
 </signal>
 </signals>
 <errors>

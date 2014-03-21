@@ -810,11 +810,9 @@ design rules under a new name.</description>
 <wire x1="35.56" y1="72.39" x2="35.56" y2="64.77" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="MC145436AP" pad="4"/>
 <contactref element="JP7" pad="2"/>
 <contactref element="JP3" pad="7"/>
 <contactref element="U2" pad="5V"/>
-<wire x1="13.97" y1="36.83" x2="11.43" y2="36.83" width="0.1524" layer="16"/>
 <wire x1="16.51" y1="39.37" x2="13.97" y2="36.83" width="0.1524" layer="16"/>
 <wire x1="16.51" y1="43.18" x2="16.51" y2="39.37" width="0.1524" layer="16"/>
 <wire x1="20.32" y1="43.18" x2="16.51" y2="43.18" width="0.1524" layer="16"/>
@@ -826,6 +824,14 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="44.45" x2="54.61" y2="45.72" width="0.1524" layer="16"/>
 <wire x1="21.59" y1="44.45" x2="53.34" y2="44.45" width="0.1524" layer="16"/>
 <wire x1="54.61" y1="45.72" x2="55.118" y2="45.72" width="0.1524" layer="16"/>
+<contactref element="MC145436AP" pad="3"/>
+<contactref element="MC145436AP" pad="6"/>
+<wire x1="13.97" y1="34.29" x2="11.43" y2="31.75" width="0.1524" layer="1"/>
+<wire x1="13.97" y1="36.83" x2="13.97" y2="34.29" width="0.1524" layer="1"/>
+<wire x1="11.43" y1="39.37" x2="13.97" y2="36.83" width="0.1524" layer="1"/>
+<contactref element="MC145436AP" pad="4"/>
+<wire x1="13.97" y1="36.83" x2="13.97" y2="36.83" width="0" layer="19" extent="1-16"/>
+<wire x1="11.43" y1="36.83" x2="13.97" y2="36.83" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
 <contactref element="MC145436AP" pad="2"/>
@@ -952,13 +958,6 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="53.34" x2="58.42" y2="50.8" width="0.1524" layer="16"/>
 <wire x1="55.118" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="16"/>
 </signal>
-<signal name="N$2">
-<contactref element="MC145436AP" pad="3"/>
-<contactref element="MC145436AP" pad="6"/>
-<wire x1="13.97" y1="34.29" x2="11.43" y2="31.75" width="0.1524" layer="1"/>
-<wire x1="13.97" y1="36.83" x2="13.97" y2="34.29" width="0.1524" layer="1"/>
-<wire x1="11.43" y1="39.37" x2="13.97" y2="36.83" width="0.1524" layer="1"/>
-</signal>
 <signal name="N$8">
 <contactref element="JP5" pad="2"/>
 <contactref element="MC145436AP" pad="7"/>
@@ -976,43 +975,6 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="29.21" x2="22.86" y2="38.1" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="18,29,5b14e1a528e8f349"/>
-<approved hash="18,29,5dc690140ebc39a4"/>
-<approved hash="18,29,4d3493011d5936f2"/>
-<approved hash="18,29,4d3ed1005f5836ec"/>
-<approved hash="18,29,4a7ce2ad6be531b2"/>
-<approved hash="18,29,3bf4fb73039b4056"/>
-<approved hash="18,29,5e3cce1f50b725ae"/>
-<approved hash="18,29,4322f7d6770e3864"/>
-<approved hash="18,29,a2c8328edcdaa9a6"/>
-<approved hash="18,29,bec26c859d21b5ac"/>
-<approved hash="18,29,b1bc6fe49148ba8e"/>
-<approved hash="18,29,c7c006128f36cdae"/>
-<approved hash="18,29,b6ec1e40e7ecbdc6"/>
-<approved hash="18,29,be220bbbfa97b490"/>
-<approved hash="18,29,b1ba2de1d345ba94"/>
-<approved hash="18,29,0388e35905fffbea"/>
-<approved hash="18,29,6110722fa0a56d7b"/>
-<approved hash="18,29,b1a2335d4031d8a0"/>
-<approved hash="18,29,99dbcf247b990a06"/>
-<approved hash="18,29,934bc1b761a32631"/>
-<approved hash="18,29,b442f18b10325c62"/>
-<approved hash="18,29,cd01c1c98507572e"/>
-<approved hash="18,29,57899669de564d68"/>
-<approved hash="18,29,269ae301c9fc5eb9"/>
-<approved hash="18,29,7dc1107b105573eb"/>
-<approved hash="18,29,3343104910633d6d"/>
-<approved hash="18,29,7ce92d6d111ebf51"/>
-<approved hash="18,29,5ce7eef5d1f00a38"/>
-<approved hash="18,30,ae5176b07274b415"/>
-<approved hash="18,30,a90b730e75bab8d7"/>
-<approved hash="18,30,aa5f7fba7ef6b3cb"/>
-<approved hash="18,30,3e3a0ee700f20fd7"/>
-<approved hash="18,30,eced26eda58d8e98"/>
-<approved hash="18,30,3e56db5b8f63bb63"/>
-<approved hash="18,30,8dd10cce4ea98c4c"/>
-</errors>
 </board>
 </drawing>
 </eagle>
